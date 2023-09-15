@@ -27,18 +27,31 @@ h6 {
 
 h1 {
   font-size: 96px;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
-h2{
+h2 {
   font-size: 62px;
   color: var(--branding-color);
 }
 
-p{
+p {
   font-size: 16px;
   color: var(--branding-color);
   line-height: 1.5;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+nav a:hover {
+  border-bottom: 3px solid var(--accent-color-pink);
+}
+
+.navbar-bg {
+  background-color: white;
 }
 
 .hero {
@@ -67,7 +80,7 @@ p{
   padding: 160px 20px;
 }
 
-.content h1{
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
@@ -83,7 +96,7 @@ p{
 }
 
 .content {
-  margin: 30px; 
+  margin: 30px;
 }
 
 .btn-branding {
@@ -129,24 +142,23 @@ p{
 }
 
 @media (max-width: 990px) {
- 
-h1{
-  font-size: 44px;
-  line-height: 2;
-}
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
 
-h2{
-  font-size: 44px;
-}
+  h2 {
+    font-size: 44px;
+  }
   .project-description {
-  padding: 0;
-  text-align: center;
-}
-.hero {
-  padding: 80px 20px;
-}
-.content-container {
-  text-align: center;
-  padding: 0;
-}
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
 }
