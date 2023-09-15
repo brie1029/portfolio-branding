@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,400;0,9..40,700;1,9..40,200;1,9..40,400;1,9..40,700&family=DM+Serif+Display:ital@0;1&display=swap");
+
+:root {
+  --branding-color: #734652;
+  --light-color: #D9C5CE;
+  --dark-color: #BF567D;
+  --accent-color-mint: #b0cebf;
+  --accent-color-pink: #D9B0C3;
+
+  --heading-font: "DM Serif Display", Georgia, Times;
+  --default-font: "DM Sans", Helvetica, sans-serif;
+}
