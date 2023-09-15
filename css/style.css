@@ -58,7 +58,7 @@ nav li.active a {
 .hero {
   background: var(--light-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
@@ -78,7 +78,7 @@ nav li.active a {
 .content-container {
   font-size: 64px;
   line-height: 80px;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -123,6 +123,7 @@ nav li.active a {
   color: white;
 }
 
+.about-btn a:hover,
 .contact-link a:hover {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
