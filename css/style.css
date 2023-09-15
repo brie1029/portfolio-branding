@@ -2,11 +2,25 @@
 
 :root {
   --branding-color: #734652;
-  --light-color: #D9C5CE;
-  --dark-color: #BF567D;
+  --light-color: #d9c5ce;
+  --dark-color: #bf567d;
   --accent-color-mint: #b0cebf;
-  --accent-color-pink: #D9B0C3;
+  --accent-color-pink: #d9b0c3;
 
   --heading-font: "DM Serif Display", Georgia, Times;
   --default-font: "DM Sans", Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--default-font);
+  color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
 }
