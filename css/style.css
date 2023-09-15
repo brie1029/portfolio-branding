@@ -27,6 +27,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5
 }
 
 h2{
@@ -57,7 +58,7 @@ p{
   font-family: var(--default-font);
   font-weight: normal;
   font-size: 26px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .btn-branding {
@@ -78,6 +79,14 @@ p{
   padding: 12px 20px;
 }
 
+.featured-content {
+  margin: 50px 25px;
+}
+
+.project-description {
+  padding: 160px 60px 0;
+}
+
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -96,4 +105,23 @@ p{
   padding: 25px;
   font-size: 25px;
   color: var(--branding-color);
+}
+
+@media (max-width: 990px) {
+ 
+h1{
+  font-size: 44px;
+  line-height: 2;
+}
+
+h2{
+  font-size: 44px;
+}
+  .project-description {
+  padding: 0;
+  text-align: center;
+}
+.hero {
+  padding: 80px 20px;
+}
 }
