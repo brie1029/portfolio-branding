@@ -5,7 +5,7 @@
   --light-color: #d9c5ce;
   --dark-color: #bf567d;
   --accent-color-mint: #b0cebf;
-  --accent-color-pink: #d9b0c3;
+  --accent-color-pink: #ebd7e0;
 
   --heading-font: "DM Serif Display", Georgia, Times;
   --default-font: "DM Sans", Helvetica, sans-serif;
@@ -139,6 +139,32 @@ nav a:hover {
   padding: 25px;
   font-size: 25px;
   color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+  background-color: var(--dark-color);
+  color: white;
+  padding: 25px 75px 5px 75px;
+}
+
+footer .social-links a {
+  color: var(--branding-color);
+  background: var(--accent-color-pink);
+  margin: 0 20px;
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+footer .github-link {
+  color: var(--accent-color-pink);
+  text-decoration: none;
 }
 
 @media (max-width: 990px) {
