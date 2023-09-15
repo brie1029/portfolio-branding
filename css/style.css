@@ -152,9 +152,13 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-.contact-page {
-  display: flex;
-  justify-content: ;
+.contact-page a {
+  color: var(--branding-color);
+  margin: 0 20px;
+  padding: 10px 16px;
+  font-size: 44px;
+  border-radius: 50%;
+  transition: all 100ms ease;
 }
 
 footer {
